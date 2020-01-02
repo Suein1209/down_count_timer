@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="WCountDownTimerTextView">
+        <attr name="digitTextSize" format="dimension" />
+        <attr name="digitTextColor" format="reference|integer" />
+        <attr name="digitTextAnim" format="reference|integer" />
+    </declare-styleable>
+
+    <declare-styleable name="WCountDownTimerImageView">
+        <attr name="digitImg0" format="reference|integer" />
+        <attr name="digitImg1" format="reference|integer" />
+        <attr name="digitImg2" format="reference|integer" />
+        <attr name="digitImg3" format="reference|integer" />
+        <attr name="digitImg4" format="reference|integer" />
+        <attr name="digitImg5" format="reference|integer" />
+        <attr name="digitImg6" format="reference|integer" />
+        <attr name="digitImg7" format="reference|integer" />
+        <attr name="digitImg8" format="reference|integer" />
+        <attr name="digitImg9" format="reference|integer" />
+        <attr name="digitImgWidth" format="dimension" />
+        <attr name="digitImgHeight" format="dimension" />
+        <attr name="digitImgAnim" format="reference|integer" />
+        <attr name="digitcolon" format="reference|integer" />
+        <attr name="digitColonImgWidth" format="dimension" />
+        <attr name="digitColonImgHeight" format="dimension" />
+    </declare-styleable>
+
+</resources>
