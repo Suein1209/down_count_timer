@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        tools:context="com.suein1209.sample.MainActivity">
+
+        <com.suein1209.countdowntimer.WCountDownTimerTextView
+            android:id="@+id/v_text_countdowntimer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            app:digitTextAnim="@android:anim/accelerate_interpolator"
+            app:digitTextColor="@android:color/black"
+            app:digitTextSize="30dp" />
+
+        <TextView
+            android:gravity="center"
+            android:id="@+id/text_timer_start"
+            android:layout_marginTop="20dp"
+            android:text="TextView Timer Start!"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            android:layout_width="match_parent"
+            android:layout_height="50dp" />
+
+    </LinearLayout>
+</layout>
